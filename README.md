@@ -1,6 +1,6 @@
 # Freelancer Data Scraper
 
-This project scrapes freelancer data and their project details from freelancing platforms, specifically focusing on US-based freelancers.
+This project scrapes freelancer data and their project details from Freelancer.com, specifically focusing on US-based freelancers.
 
 ## Repository
 
@@ -47,8 +47,8 @@ Before running the final script:
 2. Open `index.js`
 3. Replace the following placeholders with your credentials:
 ```javascript
-username: "YOUR_USERNAME",
-password: "YOUR_PASSWORD"
+const USERNAME = '';
+const PASSWORD = '';
 ```
 
 ### 4. Scrape Project Details
@@ -65,19 +65,8 @@ This will generate `projects_details.json` containing the following information 
 - Review
 - Date
 
-## Recent Changes
-
-- Last update to project details scraper (index.js) - 5 minutes ago
-- Initial commit of base files - yesterday
-- Project details and username data last updated - 5 minutes ago
-
-## Git Ignored Files
-
-Check `.gitignore` for files excluded from version control.
-
 ## Notes
 
 - The scraper is specifically designed for US-based freelancers
-- Make sure to respect rate limits and terms of service of the platform
 - Data is saved in JSON format for easy processing
 - Protect your freelancer.com credentials and avoid sharing them
