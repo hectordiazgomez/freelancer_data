@@ -3,8 +3,8 @@ import fs from 'fs/promises';
 
 const USERNAME = '';
 const PASSWORD = '';
-const START_INDEX = 1;
-const END_INDEX = 2;
+const START_INDEX = 1899;
+const END_INDEX = 1919;
 const PROJECTS_FILE = 'projects_details.json';
 
 const saveProgress = async (data) => {
